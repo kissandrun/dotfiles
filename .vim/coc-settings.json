@@ -1,0 +1,7 @@
+{
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": ["--ignore=E24,E203,E501,W504,E402", "--verbose"],
+  "snippets.ultisnips.enable": false,
+  "python.linting.enabled": true
+}
