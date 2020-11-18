@@ -2,13 +2,13 @@
 " Maintainer:
 "
 "       KissAndRun
-"" _    _                         _                  
-"" | |  (_)                       | |                 
-"" | | ___ ___ ___  __ _ _ __   __| |_ __ _   _ _ __  
-"" | |/ / / __/ __|/ _` | '_ \ / _` | '__| | | | '_ \ 
+"" _    _                         _
+"" | |  (_)                       | |
+"" | | ___ ___ ___  __ _ _ __   __| |_ __ _   _ _ __
+"" | |/ / / __/ __|/ _` | '_ \ / _` | '__| | | | '_ \
 "" |   <| \__ \__ \ (_| | | | | (_| | |  | |_| | | | |
 "" |_|\_\_|___/___/\__,_|_| |_|\__,_|_|   \__,_|_| |_|
-""                                                    
+""
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """""""""""""""Plug Install list"""""""""""""""""""""""""""""
@@ -17,14 +17,13 @@ filetype off                  " required
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'hotoo/pangu.vim'
+"Plug 'hotoo/pangu.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'morhetz/gruvbox'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
 Plug 'Yggdroot/indentLine'
 Plug 'mhinz/vim-signify' "显示修改痕迹
-"Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-projectionist' "待研究
 Plug 'tpope/vim-surround' "待研究
 Plug 'tpope/vim-unimpaired' "[ ]一系列快捷键 已经忘了
@@ -49,15 +48,15 @@ Plug 'rhysd/clever-f.vim'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'Raimondi/delimitMate' "shift-tab 跳出匹配的闭括号
 Plug 'chiel92/vim-autoformat'
-
-
-
-
-" test 
-"Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
-Plug 'mileszs/ack.vim'
 Plug 'mhinz/vim-startify'
+
+
+" test
+Plug 'mileszs/ack.vim'
 Plug 'wellle/tmux-complete.vim'
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+Plug 'gcmt/wildfire.vim'
+"Plug 'davidhalter/jedi-vim'
 
 
 call plug#end()
@@ -386,7 +385,7 @@ set expandtab
 " Be smart when using tabs ;)
 set smarttab
 
-" relative number 
+" relative number
 set relativenumber
 " 1 tab == 4 spaces
 set shiftwidth=4
@@ -555,7 +554,7 @@ endif
 map <leader>p :read !/mnt/c/Windows/System32/paste.exe<cr>
 
 function RunCurrent()
-    let path = expand("%:p") 
+    let path = expand("%:p")
     let commandin = "'" . "ipython -i" . " " . path . "'"
     let command = "tmux send-keys -t top-right ".expand(commandin).expand(" C-m")
     let commandfist ="tmux send-keys -t top-right ".expand("C-z")
@@ -563,3 +562,10 @@ function RunCurrent()
     call system(command)
 endfunction
 nnoremap <leader>s :call RunCurrent()<CR>
+
+if $CONDA_PREFIX == "/home/kissandrun/miniconda3"
+    let s:current_python_path=$CONDA_PYTHON_EXE
+else
+    let s:current_python_path=$CONDA_PREFIX.'/bin/python'
+endif
+call coc#config('python', {'pythonPath': s:current_python_path})
