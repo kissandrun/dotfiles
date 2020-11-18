@@ -563,7 +563,7 @@ function RunCurrent()
 endfunction
 nnoremap <leader>s :call RunCurrent()<CR>
 
-if $CONDA_PREFIX == "/home/kissandrun/miniconda3"
+if $CONDA_PREFIX == ""
     let s:current_python_path=$CONDA_PYTHON_EXE
 else
     let s:current_python_path=$CONDA_PREFIX.'/bin/python'

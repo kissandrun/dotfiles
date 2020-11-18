@@ -94,6 +94,8 @@ alias i3config="vim ~/dotfiles/.i3/config"
 alias vimconfig="vim ~/dotfiles/.vimrc"
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias fd=fdfind
+alias ll='ls -alF'
+alias la='ls -A'
 #alias vim=nvim
 set bell-style none
 alias pls=sudo
