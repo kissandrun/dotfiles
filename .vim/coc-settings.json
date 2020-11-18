@@ -1,8 +1,0 @@
-{
-  "python.linting.pylintEnabled": false,
-  "python.linting.flake8Enabled": true,
-  "python.linting.flake8Args": ["--ignore=E24,E203,E501,W504,E402", "--verbose"],
-  "python.jediEnabled": true,
-  "python.jediPath": "/home/kissandrun/miniconda3/lib/python3.8/site-packages/",
-  "python.linting.enabled": true
-}

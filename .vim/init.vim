@@ -1,1 +1,0 @@
-/home/kissandrun/dotfiles/.vimrc
