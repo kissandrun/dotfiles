@@ -72,6 +72,7 @@ zinit snippet OMZ::plugins/tmux/tmux.plugin.zsh
 zinit snippet OMZ::plugins/tmuxinator/tmuxinator.plugin.zsh
 zinit snippet OMZ::plugins/command-not-found/command-not-found.plugin.zsh
 zinit snippet OMZ::plugins/pip/pip.plugin.zsh
+zinit snippet OMZ::plugins/fzf/fzf.plugin.zsh
 
 zinit ice lucid wait='1'
 zinit snippet OMZ::plugins/git/git.plugin.zsh
@@ -82,45 +83,68 @@ zinit load voronkovich/gitignore.plugin.zsh
 
 zinit load djui/alias-tips
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/kissandrun/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/kissandrun/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/kissandrun/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/kissandrun/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-#
 # PATH
 export PATH="/home/kissandrun/node/bin:$PATH"
+export PATH="/home/kissandrun/.local/bin:$PATH"
+export PATH="/home/kissandrun/texlive/bin/x86_64-linux:$PATH"
  
 # alias
 alias zshconfig="vim ~/.zshrc"
 alias i3config="vim ~/dotfiles/.i3/config"
 alias vimconfig="vim ~/dotfiles/.vimrc"
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+alias fd=fdfind
 #alias vim=nvim
 set bell-style none
 alias pls=sudo
+alias wcd="cd /mnt/c/Users/Run/"
+alias clang++="clang++ -std=c++11"
+alias brew="/home/kissandrun/.linuxbrew/bin/brew"
 
-#eval $(thefuck --alias)
-
-# env of autojump
-#[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
-#autoload -U compinit && compinit -u
-#source /Users/kissandrun/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#export PATH="/Applications/NEURON-7.7/nrn/x86_64/bin":$PATH #added by NEURON installer
-#export PYTHONPATH="/Applications/NEURON-7.7/nrn/lib/python":$PYTHONPATH #added by NEURON installer
-
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
-export MANPATH=${MANPATH}:/usr/local/texlive/2019/texmf-dist/doc/man
-export INFOPATH=${INFOPATH}:/usr/local/texlive/2019/texmf-dist/doc/info
-export PATH=${PATH}:/usr/local/texlive/2019/bin/x86_64-linux
 export LANG="zh_CN.UTF-8"
 export LANGUAGE="zh_CN:zh"
+
+
+###
+###FZF
+###
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export FZF_DEFAULT_COMMAND='fdfind --hidden --follow -E ".git" -E "node_modules" . /etc /home'
+export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --preview '(highlight -O ansi {} || cat {}) 2> /dev/null | head -500'"
+
+# use fzf in bash and zsh
+# Use ~~ as the trigger sequence instead of the default **
+#export FZF_COMPLETION_TRIGGER='~~'
+
+# Options to fzf command
+#export FZF_COMPLETION_OPTS=''
+
+# Use fd (https://github.com/sharkdp/fd) instead of the default find
+# command for listing path candidates.
+# - The first argument to the function ($1) is the base path to start traversal
+# - See the source code (completion.{bash,zsh}) for the details.
+_fzf_compgen_path() {
+  fdfind --hidden --follow -E ".git" -E "node_modules" . /etc /home
+}
+
+# Use fd to generate the list for directory completion
+_fzf_compgen_dir() {
+  fdfind --type d --hidden --follow -E ".git" -E "node_modules" . /etc /home
+}
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/kissandrun/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/kissandrun/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/kissandrun/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/kissandrun/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
