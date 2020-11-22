@@ -96,7 +96,7 @@ alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias fd=fdfind
 alias ll='ls -alF'
 alias la='ls -A'
-#alias vim=nvim
+alias vim=nvim
 set bell-style none
 alias pls=sudo
 alias wcd="cd /mnt/c/Users/Run/"

@@ -1,6 +1,8 @@
 *~
 .*~
 /luna_pinyin.userdb/*
+/*.userdb/*
 /build/*
 /user.yaml
 /installation.yaml
+/sync

@@ -1,7 +1,0 @@
-# Rime user dictionary
-#@/db_name	luna_pinyin.userdb
-#@/db_type	userdb
-#@/rime_version	1.5.3
-#@/tick	2
-#@/user_id	c4ed125b-e38f-46f8-9f59-38e82f816620
-shu ru fa 	輸入法	c=2 d=1.99501 t=2
