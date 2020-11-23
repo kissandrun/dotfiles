@@ -20,7 +20,7 @@ call plug#begin('~/.vim/plugged')
 "Plug 'hotoo/pangu.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'morhetz/gruvbox'
-Plug 'ludovicchabant/vim-gutentags'
+"Plug 'ludovicchabant/vim-gutentags'
 "Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
 Plug 'Yggdroot/indentLine'
 Plug 'mhinz/vim-signify' "显示修改痕迹

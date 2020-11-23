@@ -1,0 +1,1995 @@
+{
+  "coc-python|/home/kissandrun/PyRoad": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:3bfe6e0c1b2f0af6343d88d459593762": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:3bfe6e0c1b2f0af6343d88d459593762": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/kissandrun/PyRoad": {
+      "architecture": 3,
+      "path": "/home/kissandrun/anaconda3/envs/test/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.3-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 3,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.3-final"
+      },
+      "sysPrefix": "/home/kissandrun/anaconda3/envs/test",
+      "fileHash": "7a67395cf28f150db513df1ebb5ee25a6b96c84a8eaa1b366b7ed1871c4d2219e4448a4ce2932e1687f1148f9e72264d81ff83806a8bbcaf82a103f34a39d688",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/home/kissandrun/anaconda3/bin/python",
+    "INTERPRETERS_CACHE_v3_PipEnvService:c32f21226dcf297f3db64f6f6bc55fcb": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:c32f21226dcf297f3db64f6f6bc55fcb": []
+  },
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "4b2cf57cea6e7baab2c956075a744003f0619dff0eafbc9dcf103b618891199a46db46634b6e269614057d37493a3c47944a66ecff2d59bc779786a1a96937f2"
+      },
+      "expiry": 1606185686516
+    },
+    "/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ddda90272c55b63756d757850febaf83ebc90fc695a2234c7ae9c095cb8177f9a471c1c6b343e3a47a886bdfd68b227be42205c994f99212ee42cee90a1dc50c"
+      },
+      "expiry": 1606185686538
+    },
+    "/usr/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "4b2cf57cea6e7baab2c956075a744003f0619dff0eafbc9dcf103b618891199a46db46634b6e269614057d37493a3c47944a66ecff2d59bc779786a1a96937f2"
+      },
+      "expiry": 1606185686517
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ddda90272c55b63756d757850febaf83ebc90fc695a2234c7ae9c095cb8177f9a471c1c6b343e3a47a886bdfd68b227be42205c994f99212ee42cee90a1dc50c"
+      },
+      "expiry": 1606185686518
+    },
+    "/home/kissandrun/anaconda3/envs/test/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/anaconda3/envs/test/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/anaconda3/envs/test",
+        "fileHash": "7a67395cf28f150db513df1ebb5ee25a6b96c84a8eaa1b366b7ed1871c4d2219e4448a4ce2932e1687f1148f9e72264d81ff83806a8bbcaf82a103f34a39d688"
+      },
+      "expiry": 1592900938891
+    },
+    "/home/kissandrun/anaconda3/envs/test/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/anaconda3/envs/test/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/anaconda3/envs/test",
+        "fileHash": "de34fb82d6f8a5d97cd85f83a576e15b60a607a0646f534007c705f100e62fa56ac6a17a57e93ff5515cfd00b18df7fe77e983b4f9cafe2702d4d09aaa8bb98d"
+      },
+      "expiry": 1592900938891
+    },
+    "/home/kissandrun/anaconda3/envs/test/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/anaconda3/envs/test/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/anaconda3/envs/test",
+        "fileHash": "65370f2926a96322b3c12fda3ebcc8e1d12bd2fdabd1cc3318773fe0efdb91c143940fd35ebea7d042d0cb12e9f57e6fec7464892b8df7092d514d082abe9bfb"
+      },
+      "expiry": 1592900938892
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3",
+        "fileHash": "a6324b70017b5404fc7e34c577c41074c7245ef9343762f1b88d8a70f502618164f07093f7e8e48218029a54ee2905ebc2cd05de0ee55994e12c384b7f6393ef",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3",
+        "fileHash": "fe8e35df778242bdaaa39908bfe15247bed52ddee95b007a4257352a5c635a5659c988bbb109a59a11931cc84b98ecfc141fdaa66ed1b3c8fa3a7101977bf912",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3",
+        "fileHash": "fe8e35df778242bdaaa39908bfe15247bed52ddee95b007a4257352a5c635a5659c988bbb109a59a11931cc84b98ecfc141fdaa66ed1b3c8fa3a7101977bf912",
+        "type": "Unknown"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3",
+        "fileHash": "fe8e35df778242bdaaa39908bfe15247bed52ddee95b007a4257352a5c635a5659c988bbb109a59a11931cc84b98ecfc141fdaa66ed1b3c8fa3a7101977bf912",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3",
+        "fileHash": "a6324b70017b5404fc7e34c577c41074c7245ef9343762f1b88d8a70f502618164f07093f7e8e48218029a54ee2905ebc2cd05de0ee55994e12c384b7f6393ef",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3",
+        "fileHash": "43ef89fe5861dfe0fdea52c52e2dd36bd5957ca1f29789d94405d2b64f56eae125d5697a07994e5970ea27b9c5ae2e631c4d5e2b5338cbb3c9a41693440ff0c7",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3",
+        "fileHash": "fe8e35df778242bdaaa39908bfe15247bed52ddee95b007a4257352a5c635a5659c988bbb109a59a11931cc84b98ecfc141fdaa66ed1b3c8fa3a7101977bf912",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3",
+        "fileHash": "a6324b70017b5404fc7e34c577c41074c7245ef9343762f1b88d8a70f502618164f07093f7e8e48218029a54ee2905ebc2cd05de0ee55994e12c384b7f6393ef",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3",
+        "fileHash": "43ef89fe5861dfe0fdea52c52e2dd36bd5957ca1f29789d94405d2b64f56eae125d5697a07994e5970ea27b9c5ae2e631c4d5e2b5338cbb3c9a41693440ff0c7",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ddda90272c55b63756d757850febaf83ebc90fc695a2234c7ae9c095cb8177f9a471c1c6b343e3a47a886bdfd68b227be42205c994f99212ee42cee90a1dc50c",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "4b2cf57cea6e7baab2c956075a744003f0619dff0eafbc9dcf103b618891199a46db46634b6e269614057d37493a3c47944a66ecff2d59bc779786a1a96937f2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ddda90272c55b63756d757850febaf83ebc90fc695a2234c7ae9c095cb8177f9a471c1c6b343e3a47a886bdfd68b227be42205c994f99212ee42cee90a1dc50c",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "4b2cf57cea6e7baab2c956075a744003f0619dff0eafbc9dcf103b618891199a46db46634b6e269614057d37493a3c47944a66ecff2d59bc779786a1a96937f2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ddda90272c55b63756d757850febaf83ebc90fc695a2234c7ae9c095cb8177f9a471c1c6b343e3a47a886bdfd68b227be42205c994f99212ee42cee90a1dc50c",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "4b2cf57cea6e7baab2c956075a744003f0619dff0eafbc9dcf103b618891199a46db46634b6e269614057d37493a3c47944a66ecff2d59bc779786a1a96937f2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "ddda90272c55b63756d757850febaf83ebc90fc695a2234c7ae9c095cb8177f9a471c1c6b343e3a47a886bdfd68b227be42205c994f99212ee42cee90a1dc50c",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/usr",
+        "fileHash": "4b2cf57cea6e7baab2c956075a744003f0619dff0eafbc9dcf103b618891199a46db46634b6e269614057d37493a3c47944a66ecff2d59bc779786a1a96937f2",
+        "type": "Unknown"
+      }
+    ],
+    "/home/kissandrun/anaconda3/envs/nvim/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/anaconda3/envs/nvim/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/anaconda3/envs/nvim",
+        "fileHash": "e622e8e75db6df5ce7aa960d2fd976449aba9b890d237b0cc93bcee6df98528ae6014a7d42c2ab18cd3032c743261e4864bb4baf62863a9c8bfd50ba497e8878"
+      },
+      "expiry": 1605748108474
+    },
+    "/home/kissandrun/anaconda3/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/anaconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.9-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.9-final"
+        },
+        "sysPrefix": "/home/kissandrun/anaconda3",
+        "fileHash": "727daae723ce1d6ef0b65320cfb67a3ef493d18ecd6857ef172240bdc3e509e1704ac3a8e8bd2767eca1cf4666b2459c1fa6b52d2fadecf38b6f7005cb3f938f"
+      },
+      "expiry": 1605748878423
+    },
+    "/home/kissandrun/anaconda3/envs/test/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "7a67395cf28f150db513df1ebb5ee25a6b96c84a8eaa1b366b7ed1871c4d2219e4448a4ce2932e1687f1148f9e72264d81ff83806a8bbcaf82a103f34a39d688",
+        "info": {
+          "architecture": 3,
+          "path": "/home/kissandrun/anaconda3/envs/test/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.3-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.3-final"
+          },
+          "sysPrefix": "/home/kissandrun/anaconda3/envs/test",
+          "fileHash": "7a67395cf28f150db513df1ebb5ee25a6b96c84a8eaa1b366b7ed1871c4d2219e4448a4ce2932e1687f1148f9e72264d81ff83806a8bbcaf82a103f34a39d688",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/home/kissandrun/anaconda3/envs/test",
+          "envName": "test",
+          "displayName": "Python 3.8.3 64-bit ('test': conda)"
+        }
+      },
+      "expiry": 1592901309981
+    },
+    "/home/kissandrun/anaconda3/envs/test/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.3 64-bit ('test': conda)",
+        "hash": "7a67395cf28f150db513df1ebb5ee25a6b96c84a8eaa1b366b7ed1871c4d2219e4448a4ce2932e1687f1148f9e72264d81ff83806a8bbcaf82a103f34a39d688-a9a46d1690f71079cb0614bb84ca6f1e"
+      },
+      "expiry": 1592901309965
+    },
+    "CONDA_ENVIRONMENTS": {
+      "data": [
+        {
+          "name": "base",
+          "path": "/home/kissandrun/miniconda3"
+        },
+        {
+          "name": "lungseg",
+          "path": "/home/kissandrun/miniconda3/envs/lungseg"
+        },
+        {
+          "name": "nvim",
+          "path": "/home/kissandrun/miniconda3/envs/nvim"
+        }
+      ]
+    },
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [
+      {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3",
+        "fileHash": "fe8e35df778242bdaaa39908bfe15247bed52ddee95b007a4257352a5c635a5659c988bbb109a59a11931cc84b98ecfc141fdaa66ed1b3c8fa3a7101977bf912",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/kissandrun/miniconda3",
+        "envName": "base"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/envs/lungseg/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3/envs/lungseg",
+        "fileHash": "e4b901c68d90c6f48be88430cc38dc11b1748894afc2114858c32277fb86bd9c7166e7aeed9d73d6933647c32b383a3a73c9afe19ed4bacc1a36fdb88486e2b9",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/kissandrun/miniconda3/envs/lungseg",
+        "envName": "lungseg"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/envs/nvim/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3/envs/nvim",
+        "fileHash": "51647e8f7e26ea2155c597b83f48c5c75ab22ba5f31d3afbc47569b6e16c4f8e1cf2a27b5b86ef936eb8a6ee1a6e8fe3b42ba1385223ff68b36aeb72763009e7",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/kissandrun/miniconda3/envs/nvim",
+        "envName": "nvim"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [
+      {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3",
+        "fileHash": "fe8e35df778242bdaaa39908bfe15247bed52ddee95b007a4257352a5c635a5659c988bbb109a59a11931cc84b98ecfc141fdaa66ed1b3c8fa3a7101977bf912",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/kissandrun/miniconda3",
+        "envName": "base"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/envs/lungseg/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3/envs/lungseg",
+        "fileHash": "e4b901c68d90c6f48be88430cc38dc11b1748894afc2114858c32277fb86bd9c7166e7aeed9d73d6933647c32b383a3a73c9afe19ed4bacc1a36fdb88486e2b9",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/kissandrun/miniconda3/envs/lungseg",
+        "envName": "lungseg"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/envs/nvim/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3/envs/nvim",
+        "fileHash": "51647e8f7e26ea2155c597b83f48c5c75ab22ba5f31d3afbc47569b6e16c4f8e1cf2a27b5b86ef936eb8a6ee1a6e8fe3b42ba1385223ff68b36aeb72763009e7",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/kissandrun/miniconda3/envs/nvim",
+        "envName": "nvim"
+      },
+      {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3",
+        "fileHash": "fe8e35df778242bdaaa39908bfe15247bed52ddee95b007a4257352a5c635a5659c988bbb109a59a11931cc84b98ecfc141fdaa66ed1b3c8fa3a7101977bf912",
+        "companyDisplayName": "Anaconda, Inc.",
+        "type": "Conda",
+        "envPath": "/home/kissandrun/miniconda3",
+        "envName": "base"
+      }
+    ],
+    "PipEnvInformation": [],
+    "/home/kissandrun/anaconda3/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.9 64-bit ('anaconda3': virtualenv)",
+        "hash": "727daae723ce1d6ef0b65320cfb67a3ef493d18ecd6857ef172240bdc3e509e1704ac3a8e8bd2767eca1cf4666b2459c1fa6b52d2fadecf38b6f7005cb3f938f-d539999b73ef34a5fef7fdd8cae6d634"
+      },
+      "expiry": 1605748878517
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit",
+        "hash": "ddda90272c55b63756d757850febaf83ebc90fc695a2234c7ae9c095cb8177f9a471c1c6b343e3a47a886bdfd68b227be42205c994f99212ee42cee90a1dc50c-f48b05368b38c23513326b4bd2feb478"
+      },
+      "expiry": 1606185687105
+    },
+    "/home/kissandrun/anaconda3/envs/nvim/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.3 64-bit",
+        "hash": "e622e8e75db6df5ce7aa960d2fd976449aba9b890d237b0cc93bcee6df98528ae6014a7d42c2ab18cd3032c743261e4864bb4baf62863a9c8bfd50ba497e8878-ba7c3e9fde7874192c1599c79b8f3cc3"
+      },
+      "expiry": 1605749002343
+    },
+    "/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit",
+        "hash": "ddda90272c55b63756d757850febaf83ebc90fc695a2234c7ae9c095cb8177f9a471c1c6b343e3a47a886bdfd68b227be42205c994f99212ee42cee90a1dc50c-02c3b9291de5ba8ffa80068a8a83d118"
+      },
+      "expiry": 1606185687107
+    },
+    "/home/kissandrun/anaconda3/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "727daae723ce1d6ef0b65320cfb67a3ef493d18ecd6857ef172240bdc3e509e1704ac3a8e8bd2767eca1cf4666b2459c1fa6b52d2fadecf38b6f7005cb3f938f",
+        "info": {
+          "architecture": 3,
+          "path": "/home/kissandrun/anaconda3/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.7.9-final",
+            "major": 3,
+            "minor": 7,
+            "patch": 9,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.7.9-final"
+          },
+          "sysPrefix": "/home/kissandrun/anaconda3",
+          "fileHash": "727daae723ce1d6ef0b65320cfb67a3ef493d18ecd6857ef172240bdc3e509e1704ac3a8e8bd2767eca1cf4666b2459c1fa6b52d2fadecf38b6f7005cb3f938f",
+          "type": "Unknown",
+          "displayName": "Python 3.7.9 64-bit ('anaconda3': virtualenv)"
+        }
+      },
+      "expiry": 1605748878596
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "ddda90272c55b63756d757850febaf83ebc90fc695a2234c7ae9c095cb8177f9a471c1c6b343e3a47a886bdfd68b227be42205c994f99212ee42cee90a1dc50c",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "ddda90272c55b63756d757850febaf83ebc90fc695a2234c7ae9c095cb8177f9a471c1c6b343e3a47a886bdfd68b227be42205c994f99212ee42cee90a1dc50c",
+          "type": "Unknown",
+          "displayName": "Python 3.8.5 64-bit"
+        }
+      },
+      "expiry": 1606185687210
+    },
+    "/home/kissandrun/anaconda3/envs/nvim/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "e622e8e75db6df5ce7aa960d2fd976449aba9b890d237b0cc93bcee6df98528ae6014a7d42c2ab18cd3032c743261e4864bb4baf62863a9c8bfd50ba497e8878",
+        "info": {
+          "architecture": 3,
+          "path": "/home/kissandrun/anaconda3/envs/nvim/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.3-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.3-final"
+          },
+          "sysPrefix": "/home/kissandrun/anaconda3/envs/nvim",
+          "fileHash": "e622e8e75db6df5ce7aa960d2fd976449aba9b890d237b0cc93bcee6df98528ae6014a7d42c2ab18cd3032c743261e4864bb4baf62863a9c8bfd50ba497e8878",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/home/kissandrun/anaconda3/envs/nvim",
+          "envName": "nvim",
+          "cachedEntry": true,
+          "displayName": "Python 3.8.3 64-bit ('nvim': conda)",
+          "__store": true
+        }
+      },
+      "expiry": 1605749002303
+    },
+    "/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "ddda90272c55b63756d757850febaf83ebc90fc695a2234c7ae9c095cb8177f9a471c1c6b343e3a47a886bdfd68b227be42205c994f99212ee42cee90a1dc50c",
+        "info": {
+          "architecture": 3,
+          "path": "/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/usr",
+          "fileHash": "ddda90272c55b63756d757850febaf83ebc90fc695a2234c7ae9c095cb8177f9a471c1c6b343e3a47a886bdfd68b227be42205c994f99212ee42cee90a1dc50c",
+          "type": "Unknown",
+          "displayName": "Python 3.8.5 64-bit"
+        }
+      },
+      "expiry": 1606185687213
+    },
+    "ProposeLSBanner": false,
+    "/home/kissandrun/anaconda3/bin/python3.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/anaconda3/bin/python3.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.9-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.9-final"
+        },
+        "sysPrefix": "/home/kissandrun/anaconda3",
+        "fileHash": "4fb67e28501da9ac0213e86810233287cf9c8545c5c1cae56186f3678511ab61ca1035f6175584a9ab1c97f6f78ad89441b539adcaed58ddc9e3989f87726060"
+      },
+      "expiry": 1605748878383
+    },
+    "/home/kissandrun/anaconda3/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/anaconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.9-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 9,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.9-final"
+        },
+        "sysPrefix": "/home/kissandrun/anaconda3",
+        "fileHash": "525e5c12fb676dd280fde913382e588445f7628268dff33ba068724213fb00e641c4b2f53066416ed81145a876fc79b28979ca0bb50381d504b8b282cb848a2f"
+      },
+      "expiry": 1605748878380
+    },
+    "/home/kissandrun/anaconda3/envs/nvim/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/anaconda3/envs/nvim/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/anaconda3/envs/nvim",
+        "fileHash": "e622e8e75db6df5ce7aa960d2fd976449aba9b890d237b0cc93bcee6df98528ae6014a7d42c2ab18cd3032c743261e4864bb4baf62863a9c8bfd50ba497e8878"
+      },
+      "expiry": 1605690204234
+    },
+    "/home/kissandrun/anaconda3/envs/nvim/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/anaconda3/envs/nvim/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/anaconda3/envs/nvim",
+        "fileHash": "e498a0fbd8b4b07ffea92abc4dc6e693813a9aef0d726f8faa522f62d913289f31da30b6645e42c32c26f5a746750a6cd7f9b5db22e73d8217d8f5f313d08b4a"
+      },
+      "expiry": 1605690204328
+    },
+    "/home/kissandrun/anaconda3/envs/lungseg/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/anaconda3/envs/lungseg/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/kissandrun/anaconda3/envs/lungseg",
+        "fileHash": "d337ba317ccbfa289b10272000ec4f31eb264f670995ddfafbcfded2822f65f823d6e8c7b08ac25b91d3bc1203b72b56f8981b3eba726e1ae72f613d420cc04f"
+      },
+      "expiry": 1605748108474
+    },
+    "/home/kissandrun/anaconda3/envs/py3.5/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/anaconda3/envs/py3.5/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.5.6-final",
+          "major": 3,
+          "minor": 5,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.5.6-final"
+        },
+        "sysPrefix": "/home/kissandrun/anaconda3/envs/py3.5",
+        "fileHash": "d67c4966d2b45cf331f97bf043f7be48ff01cc3dcdad1cfbbed4bd5f76d5f486f3379c72f05c2a9a3272a66969c93376989cdc1aa488d844e32960c5f611f898"
+      },
+      "expiry": 1605748108546
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/home/kissandrun/miniconda3/envs/nvim/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.0-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 0,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.0-final"
+      },
+      "sysPrefix": "/home/kissandrun/miniconda3/envs/nvim",
+      "fileHash": "51647e8f7e26ea2155c597b83f48c5c75ab22ba5f31d3afbc47569b6e16c4f8e1cf2a27b5b86ef936eb8a6ee1a6e8fe3b42ba1385223ff68b36aeb72763009e7",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/home/kissandrun/miniconda3/envs/nvim",
+      "envName": "nvim",
+      "cachedEntry": true,
+      "displayName": "Python 3.9.0 64-bit ('nvim': conda)"
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/home/kissandrun/miniconda3/envs/nvim/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.0-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 0,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.0-final"
+      },
+      "sysPrefix": "/home/kissandrun/miniconda3/envs/nvim",
+      "fileHash": "51647e8f7e26ea2155c597b83f48c5c75ab22ba5f31d3afbc47569b6e16c4f8e1cf2a27b5b86ef936eb8a6ee1a6e8fe3b42ba1385223ff68b36aeb72763009e7",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/home/kissandrun/miniconda3/envs/nvim",
+      "envName": "nvim",
+      "cachedEntry": true,
+      "displayName": "Python 3.9.0 64-bit ('nvim': conda)"
+    },
+    "/home/kissandrun/anaconda3/envs/lungseg/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit",
+        "hash": "d337ba317ccbfa289b10272000ec4f31eb264f670995ddfafbcfded2822f65f823d6e8c7b08ac25b91d3bc1203b72b56f8981b3eba726e1ae72f613d420cc04f-02a13f421563f219714dd4f9d1e2b6f0"
+      },
+      "expiry": 1605748653704
+    },
+    "/home/kissandrun/anaconda3/envs/py3.5/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.5.6 64-bit ('py3.5': conda)",
+        "hash": "d67c4966d2b45cf331f97bf043f7be48ff01cc3dcdad1cfbbed4bd5f76d5f486f3379c72f05c2a9a3272a66969c93376989cdc1aa488d844e32960c5f611f898-8185a2c6da8032d94f9b68f77a8240a7"
+      },
+      "expiry": 1605618907511
+    },
+    "/home/kissandrun/anaconda3/envs/lungseg/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "d337ba317ccbfa289b10272000ec4f31eb264f670995ddfafbcfded2822f65f823d6e8c7b08ac25b91d3bc1203b72b56f8981b3eba726e1ae72f613d420cc04f",
+        "info": {
+          "architecture": 3,
+          "path": "/home/kissandrun/anaconda3/envs/lungseg/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/home/kissandrun/anaconda3/envs/lungseg",
+          "fileHash": "d337ba317ccbfa289b10272000ec4f31eb264f670995ddfafbcfded2822f65f823d6e8c7b08ac25b91d3bc1203b72b56f8981b3eba726e1ae72f613d420cc04f",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/home/kissandrun/anaconda3/envs/lungseg",
+          "envName": "lungseg",
+          "cachedEntry": true,
+          "displayName": "Python 3.8.5 64-bit ('lungseg': conda)",
+          "__store": true
+        }
+      },
+      "expiry": 1605748653663
+    },
+    "/home/kissandrun/anaconda3/envs/py3.5/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "d67c4966d2b45cf331f97bf043f7be48ff01cc3dcdad1cfbbed4bd5f76d5f486f3379c72f05c2a9a3272a66969c93376989cdc1aa488d844e32960c5f611f898",
+        "info": {
+          "architecture": 3,
+          "path": "/home/kissandrun/anaconda3/envs/py3.5/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.5.6-final",
+            "major": 3,
+            "minor": 5,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.5.6-final"
+          },
+          "sysPrefix": "/home/kissandrun/anaconda3/envs/py3.5",
+          "fileHash": "d67c4966d2b45cf331f97bf043f7be48ff01cc3dcdad1cfbbed4bd5f76d5f486f3379c72f05c2a9a3272a66969c93376989cdc1aa488d844e32960c5f611f898",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/home/kissandrun/anaconda3/envs/py3.5",
+          "envName": "py3.5",
+          "displayName": "Python 3.5.6 64-bit ('py3.5': conda)"
+        }
+      },
+      "expiry": 1605618907527
+    },
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/home/kissandrun/miniconda3/envs/nvim/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.0-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 0,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.0-final"
+      },
+      "sysPrefix": "/home/kissandrun/miniconda3/envs/nvim",
+      "fileHash": "51647e8f7e26ea2155c597b83f48c5c75ab22ba5f31d3afbc47569b6e16c4f8e1cf2a27b5b86ef936eb8a6ee1a6e8fe3b42ba1385223ff68b36aeb72763009e7",
+      "companyDisplayName": "Anaconda, Inc.",
+      "type": "Conda",
+      "envPath": "/home/kissandrun/miniconda3/envs/nvim",
+      "envName": "nvim",
+      "cachedEntry": true,
+      "displayName": "Python 3.9.0 64-bit ('nvim': conda)"
+    },
+    "/home/kissandrun/anaconda3/envs/lungseg/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/anaconda3/envs/lungseg/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/kissandrun/anaconda3/envs/lungseg",
+        "fileHash": "0f559a8abf0af30a519788967c53b2e8da71e08bbaeeda81d1e137ad704e17dd55566c37dc37abc2863179ec54d084da52fdec40ba3e713e93feac40e7bbc3a3"
+      },
+      "expiry": 1605676672851
+    },
+    "/home/kissandrun/anaconda3/envs/lungseg/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/anaconda3/envs/lungseg/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/kissandrun/anaconda3/envs/lungseg",
+        "fileHash": "80f3e033c3aabed412d354c6754e6944361d6f6084fdbedbce0e626bee010e9c6ad0a54472f9832e2e8fe973e213522ac709d636b1fdde9aba070ac233ab54eb"
+      },
+      "expiry": 1605676673029
+    },
+    "/home/kissandrun/dotfiles/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "45b94d86fb2527053cd6c47e95d5b7f8956d3944d116d27cf6c86732f4011b605da8839cd4a07b4db69bd09e814bba3b13703646d81ebb104db2e3cb91be73b0"
+      },
+      "expiry": 1605689411988
+    },
+    "/home/kissandrun/dotfiles/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/dotfiles/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.7.6-final",
+          "major": 3,
+          "minor": 7,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.7.6-final"
+        },
+        "sysPrefix": "/home/kissandrun/anaconda3",
+        "fileHash": "45b94d86fb2527053cd6c47e95d5b7f8956d3944d116d27cf6c86732f4011b605da8839cd4a07b4db69bd09e814bba3b13703646d81ebb104db2e3cb91be73b0"
+      },
+      "expiry": 1605689412190
+    },
+    "/home/kissandrun/dotfiles/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.7.6 64-bit",
+        "hash": "45b94d86fb2527053cd6c47e95d5b7f8956d3944d116d27cf6c86732f4011b605da8839cd4a07b4db69bd09e814bba3b13703646d81ebb104db2e3cb91be73b0-7b4f1d127b3688b8b4c9e99b22349066"
+      },
+      "expiry": 1605689412141
+    },
+    "/home/kissandrun/anaconda3/envs/py3.5/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/anaconda3/envs/py3.5/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.5.6-final",
+          "major": 3,
+          "minor": 5,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.5.6-final"
+        },
+        "sysPrefix": "/home/kissandrun/anaconda3/envs/py3.5",
+        "fileHash": "d67c4966d2b45cf331f97bf043f7be48ff01cc3dcdad1cfbbed4bd5f76d5f486f3379c72f05c2a9a3272a66969c93376989cdc1aa488d844e32960c5f611f898"
+      },
+      "expiry": 1605689497938
+    },
+    "/home/kissandrun/anaconda3/envs/py3.5/bin/python3.5.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/anaconda3/envs/py3.5/bin/python3.5",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.5.6-final",
+          "major": 3,
+          "minor": 5,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.5.6-final"
+        },
+        "sysPrefix": "/home/kissandrun/anaconda3/envs/py3.5",
+        "fileHash": "750279933a8eaf5e392f80a1c164478633fc259b7cfd94296ea1db24a43238f135d972768c62e87f805e9205fbaab3ff7d3ee10177d4617ea1dedd8887fc142b"
+      },
+      "expiry": 1605689498032
+    },
+    "/home/kissandrun/miniconda3/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "fe8e35df778242bdaaa39908bfe15247bed52ddee95b007a4257352a5c635a5659c988bbb109a59a11931cc84b98ecfc141fdaa66ed1b3c8fa3a7101977bf912",
+        "info": {
+          "architecture": 3,
+          "path": "/home/kissandrun/miniconda3/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.3-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 3,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.3-final"
+          },
+          "sysPrefix": "/home/kissandrun/miniconda3",
+          "fileHash": "fe8e35df778242bdaaa39908bfe15247bed52ddee95b007a4257352a5c635a5659c988bbb109a59a11931cc84b98ecfc141fdaa66ed1b3c8fa3a7101977bf912",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/home/kissandrun/miniconda3",
+          "envName": "base",
+          "displayName": "Python 3.8.3 64-bit ('base': conda)"
+        }
+      },
+      "expiry": 1606185690298
+    },
+    "/home/kissandrun/miniconda3/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3",
+        "fileHash": "fe8e35df778242bdaaa39908bfe15247bed52ddee95b007a4257352a5c635a5659c988bbb109a59a11931cc84b98ecfc141fdaa66ed1b3c8fa3a7101977bf912"
+      },
+      "expiry": 1606185686520
+    },
+    "/home/kissandrun/miniconda3/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3",
+        "fileHash": "43ef89fe5861dfe0fdea52c52e2dd36bd5957ca1f29789d94405d2b64f56eae125d5697a07994e5970ea27b9c5ae2e631c4d5e2b5338cbb3c9a41693440ff0c7"
+      },
+      "expiry": 1606185686519
+    },
+    "/home/kissandrun/miniconda3/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.3-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 3,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.3-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3",
+        "fileHash": "a6324b70017b5404fc7e34c577c41074c7245ef9343762f1b88d8a70f502618164f07093f7e8e48218029a54ee2905ebc2cd05de0ee55994e12c384b7f6393ef"
+      },
+      "expiry": 1606185686521
+    },
+    "/home/kissandrun/miniconda3/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.3 64-bit ('base': conda)",
+        "hash": "fe8e35df778242bdaaa39908bfe15247bed52ddee95b007a4257352a5c635a5659c988bbb109a59a11931cc84b98ecfc141fdaa66ed1b3c8fa3a7101977bf912-76dbc32b6837d4163a606e7af273bfed"
+      },
+      "expiry": 1606185690285
+    },
+    "/home/kissandrun/miniconda3/envs/lungseg/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "e4b901c68d90c6f48be88430cc38dc11b1748894afc2114858c32277fb86bd9c7166e7aeed9d73d6933647c32b383a3a73c9afe19ed4bacc1a36fdb88486e2b9",
+        "info": {
+          "architecture": 3,
+          "path": "/home/kissandrun/miniconda3/envs/lungseg/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.5-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.5-final"
+          },
+          "sysPrefix": "/home/kissandrun/miniconda3/envs/lungseg",
+          "fileHash": "e4b901c68d90c6f48be88430cc38dc11b1748894afc2114858c32277fb86bd9c7166e7aeed9d73d6933647c32b383a3a73c9afe19ed4bacc1a36fdb88486e2b9",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/home/kissandrun/miniconda3/envs/lungseg",
+          "envName": "lungseg",
+          "displayName": "Python 3.8.5 64-bit ('lungseg': conda)"
+        }
+      },
+      "expiry": 1606185690301
+    },
+    "/home/kissandrun/miniconda3/envs/lungseg/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/envs/lungseg/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3/envs/lungseg",
+        "fileHash": "e4b901c68d90c6f48be88430cc38dc11b1748894afc2114858c32277fb86bd9c7166e7aeed9d73d6933647c32b383a3a73c9afe19ed4bacc1a36fdb88486e2b9"
+      },
+      "expiry": 1606186371271
+    },
+    "/home/kissandrun/miniconda3/envs/lungseg/bin/python3.8.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/envs/lungseg/bin/python3.8",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3/envs/lungseg",
+        "fileHash": "5c5eede63d0c2c28f55779dfb0bd22b9045d7bee9ae17b648779b2f205ef18538e4c884e6a43fe48842e1f8a3fbb2a101eeb5deee4fdbd2dc9fd782f5b1ad2fd"
+      },
+      "expiry": 1606186370981
+    },
+    "/home/kissandrun/miniconda3/envs/lungseg/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/envs/lungseg/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.5-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.5-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3/envs/lungseg",
+        "fileHash": "e4b901c68d90c6f48be88430cc38dc11b1748894afc2114858c32277fb86bd9c7166e7aeed9d73d6933647c32b383a3a73c9afe19ed4bacc1a36fdb88486e2b9"
+      },
+      "expiry": 1606185687116
+    },
+    "/home/kissandrun/miniconda3/envs/lungseg/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.5 64-bit ('lungseg': conda)",
+        "hash": "e4b901c68d90c6f48be88430cc38dc11b1748894afc2114858c32277fb86bd9c7166e7aeed9d73d6933647c32b383a3a73c9afe19ed4bacc1a36fdb88486e2b9-9bde5b29f1353f5636cc8a299b0c77b0"
+      },
+      "expiry": 1606185690286
+    },
+    "/home/kissandrun/miniconda3/envs/nvim/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "51647e8f7e26ea2155c597b83f48c5c75ab22ba5f31d3afbc47569b6e16c4f8e1cf2a27b5b86ef936eb8a6ee1a6e8fe3b42ba1385223ff68b36aeb72763009e7",
+        "info": {
+          "architecture": 3,
+          "path": "/home/kissandrun/miniconda3/envs/nvim/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.0-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 0,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.0-final"
+          },
+          "sysPrefix": "/home/kissandrun/miniconda3/envs/nvim",
+          "fileHash": "51647e8f7e26ea2155c597b83f48c5c75ab22ba5f31d3afbc47569b6e16c4f8e1cf2a27b5b86ef936eb8a6ee1a6e8fe3b42ba1385223ff68b36aeb72763009e7",
+          "companyDisplayName": "Anaconda, Inc.",
+          "type": "Conda",
+          "envPath": "/home/kissandrun/miniconda3/envs/nvim",
+          "envName": "nvim",
+          "displayName": "Python 3.9.0 64-bit ('nvim': conda)"
+        }
+      },
+      "expiry": 1606185690303
+    },
+    "/home/kissandrun/miniconda3/envs/nvim/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/envs/nvim/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3/envs/nvim",
+        "fileHash": "51647e8f7e26ea2155c597b83f48c5c75ab22ba5f31d3afbc47569b6e16c4f8e1cf2a27b5b86ef936eb8a6ee1a6e8fe3b42ba1385223ff68b36aeb72763009e7"
+      },
+      "expiry": 1606185687215
+    },
+    "/home/kissandrun/miniconda3/envs/nvim/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/envs/nvim/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3/envs/nvim",
+        "fileHash": "e1f24105e1659200665632d39cf20756fe044877ee3855f91e8fe599c2db5cd2a3efb713cb95b3b615c6de97ed8b6cae4eb6443464e1a9423820fc8d1edb9a91"
+      },
+      "expiry": 1605753206215
+    },
+    "/home/kissandrun/miniconda3/envs/nvim/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/home/kissandrun/miniconda3/envs/nvim/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.0-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 0,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.0-final"
+        },
+        "sysPrefix": "/home/kissandrun/miniconda3/envs/nvim",
+        "fileHash": "51647e8f7e26ea2155c597b83f48c5c75ab22ba5f31d3afbc47569b6e16c4f8e1cf2a27b5b86ef936eb8a6ee1a6e8fe3b42ba1385223ff68b36aeb72763009e7"
+      },
+      "expiry": 1605753206234
+    },
+    "/home/kissandrun/miniconda3/envs/nvim/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.0 64-bit ('nvim': conda)",
+        "hash": "51647e8f7e26ea2155c597b83f48c5c75ab22ba5f31d3afbc47569b6e16c4f8e1cf2a27b5b86ef936eb8a6ee1a6e8fe3b42ba1385223ff68b36aeb72763009e7-4b96c581af5329533f5e7509c5e095dd"
+      },
+      "expiry": 1606185690288
+    },
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/home/kissandrun/miniconda3/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.3-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 3,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.3-final"
+      },
+      "sysPrefix": "/home/kissandrun/miniconda3",
+      "fileHash": "fe8e35df778242bdaaa39908bfe15247bed52ddee95b007a4257352a5c635a5659c988bbb109a59a11931cc84b98ecfc141fdaa66ed1b3c8fa3a7101977bf912",
+      "type": "Unknown"
+    }
+  },
+  "coc-python|/home/kissandrun/.SpaceVim": {
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:c32f21226dcf297f3db64f6f6bc55fcb": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:c32f21226dcf297f3db64f6f6bc55fcb": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/kissandrun/.SpaceVim": {
+      "architecture": 3,
+      "path": "/home/kissandrun/anaconda3/envs/test/bin/python",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.3-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 3,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.3-final"
+      },
+      "sysPrefix": "/home/kissandrun/anaconda3/envs/test",
+      "fileHash": "7a67395cf28f150db513df1ebb5ee25a6b96c84a8eaa1b366b7ed1871c4d2219e4448a4ce2932e1687f1148f9e72264d81ff83806a8bbcaf82a103f34a39d688",
+      "type": "Unknown"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService:3bfe6e0c1b2f0af6343d88d459593762": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:3bfe6e0c1b2f0af6343d88d459593762": []
+  },
+  "coc-python|/home/kissandrun/dotfiles": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:df33e2368d4db4cb5cfa4fae8373a2bd": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:df33e2368d4db4cb5cfa4fae8373a2bd": [],
+    "SelectedPythonPath": "/home/kissandrun/anaconda3/envs/py3.5/bin/python",
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/kissandrun/LITS": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:4a8a6f4d038361619b9a168400b2a0c5": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:4a8a6f4d038361619b9a168400b2a0c5": [],
+    "autoSelectedWorkspacePythonInterpreter-/home/kissandrun/LITS": {
+      "architecture": 3,
+      "path": "/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "ddda90272c55b63756d757850febaf83ebc90fc695a2234c7ae9c095cb8177f9a471c1c6b343e3a47a886bdfd68b227be42205c994f99212ee42cee90a1dc50c",
+      "type": "Unknown",
+      "displayName": "Python 3.8.5 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService:df33e2368d4db4cb5cfa4fae8373a2bd": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:df33e2368d4db4cb5cfa4fae8373a2bd": []
+  },
+  "coc-python|/mnt/d/LungSeg": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:ad3eb91cd1b3702cd094ced170540af2": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:ad3eb91cd1b3702cd094ced170540af2": [],
+    "autoSelectedWorkspacePythonInterpreter-/mnt/d/LungSeg": {
+      "architecture": 3,
+      "path": "/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.8.5-final",
+        "major": 3,
+        "minor": 8,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.8.5-final"
+      },
+      "sysPrefix": "/usr",
+      "fileHash": "ddda90272c55b63756d757850febaf83ebc90fc695a2234c7ae9c095cb8177f9a471c1c6b343e3a47a886bdfd68b227be42205c994f99212ee42cee90a1dc50c",
+      "type": "Unknown",
+      "displayName": "Python 3.8.5 64-bit"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "SelectedPythonPath": "/home/kissandrun/anaconda3/envs/lungseg/bin/python",
+    "INTERPRETERS_CACHE_v3_PipEnvService:df33e2368d4db4cb5cfa4fae8373a2bd": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:df33e2368d4db4cb5cfa4fae8373a2bd": []
+  },
+  "coc-python|/home/kissandrun": {
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": []
+  },
+  "coc-python|/home/kissandrun/test": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:33e6599feb7802db1003c3bfb8238aff": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:33e6599feb7802db1003c3bfb8238aff": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  },
+  "coc-python|/home/kissandrun/tinynn": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:2e89d159bce735e857fef5512c53a36d": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:2e89d159bce735e857fef5512c53a36d": [],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": []
+  }
+}
