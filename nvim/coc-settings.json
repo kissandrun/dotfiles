@@ -9,6 +9,7 @@
     "list.source.tags.command": "ctags -R ./.git",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path":"flake8",
     "python.linting.flake8Args": ["--ignore=E126,E123,E24,E203,E501,W504,E402", "--verbose"],
     "python.jediEnabled": true,
     "python.jediPath": "/home/kissandrun/miniconda3/lib/python3.8/site-packages/",
