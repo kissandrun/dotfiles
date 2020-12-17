@@ -17,7 +17,6 @@ filetype off                  " required
 
 call plug#begin('~/.vim/plugged')
 
-"Plug 'hotoo/pangu.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'morhetz/gruvbox'
 "Plug 'ludovicchabant/vim-gutentags'
@@ -27,19 +26,12 @@ Plug 'mhinz/vim-signify' "显示修改痕迹
 Plug 'tpope/vim-projectionist' "待研究
 Plug 'tpope/vim-surround' "待研究
 Plug 'tpope/vim-unimpaired' "[ ]一系列快捷键 已经忘了
-Plug 'skywind3000/asyncrun.vim'
 Plug 'honza/vim-snippets'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'christoomey/vim-tmux-navigator'
 
-Plug 'kana/vim-textobj-user'
-Plug 'kana/vim-textobj-indent'
-Plug 'kana/vim-textobj-function', { 'for':['c', 'cpp', 'vim', 'python'] }
-Plug 'sgur/vim-textobj-parameter'
-
 Plug 'octol/vim-cpp-enhanced-highlight'
-"Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
@@ -49,13 +41,6 @@ Plug 'kien/rainbow_parentheses.vim'
 Plug 'Raimondi/delimitMate' "shift-tab 跳出匹配的闭括号
 Plug 'chiel92/vim-autoformat'
 Plug 'mhinz/vim-startify'
-
-
-" test
-Plug 'mileszs/ack.vim'
-Plug 'wellle/tmux-complete.vim'
-Plug 'mg979/vim-visual-multi', {'branch': 'master'}
-Plug 'gcmt/wildfire.vim'
 if has('nvim')
     Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
 else
@@ -63,7 +48,21 @@ else
     Plug 'roxma/nvim-yarp'
     Plug 'roxma/vim-hug-neovim-rpc'
 endif
-"Plug 'davidhalter/jedi-vim'
+Plug 'skywind3000/asyncrun.vim'
+Plug 'skywind3000/asynctasks.vim'
+Plug 'wellle/tmux-complete.vim'
+
+
+" test
+Plug 'mileszs/ack.vim'
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+Plug 'gcmt/wildfire.vim'
+Plug 'kana/vim-textobj-user'
+Plug 'kana/vim-textobj-indent'
+Plug 'kana/vim-textobj-function', { 'for':['c', 'cpp', 'vim', 'python'] }
+Plug 'sgur/vim-textobj-parameter'
+
+
 
 
 call plug#end()
@@ -74,7 +73,7 @@ let mapleader = ";"
 set shell=zsh
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 noremap <leader>af :Autoformat<CR>
-let g:formatters_python = ['black']
+let g:formatters_python = ['yapf']
 let g:tmux_navigator_save_on_switch = 2
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:asyncrun_rootmarks = ['.svn', '.git', '.root', '_darcs', 'build.xml']
@@ -82,15 +81,11 @@ let g:asyncrun_rootmarks = ['.svn', '.git', '.root', '_darcs', 'build.xml']
 let g:asyncrun_open = 6
 " 任务结束时候响铃提醒
 let g:asyncrun_bell = 1
-" 设置 F10 打开/关闭 Quickfix 窗口
-nnoremap <F10> :call asyncrun#quickfix_toggle(6)<cr>
-nnoremap <silent> <F9> :AsyncRun xelatex "$(VIM_FILEDIR)/$(VIM_FILENOEXT)" <cr>
-"nnoremap <silent> <F9> :AsyncRun gcc -Wall -O2 "$(VIM_FILEPATH)" -o "$(VIM_FILEDIR)/$(VIM_FILENOEXT)" <cr>
-"nnoremap <silent> <F4> :AsyncRun -cwd=<root> cmake . <cr>
-"nnoremap <silent> <F6> :AsyncRun -cwd=<root> -raw make test <cr>
-"nnoremap <silent> <F8> :AsyncRun -cwd=<root> -raw make run <cr>
-"nnoremap <silent> <F7> :AsyncRun -cwd=<root> make <cr>
-
+let g:asynctasks_term_pos = 'bottom'
+noremap <silent><leader>r :AsyncTask file-run<cr>
+noremap <silent><leader>b :AsyncTask file-build<cr>
+let g:asynctasks_term_pos = 'right'
+autocmd BufNewFile  *.cpp 0r ~/.config/nvim/template/skeleton.cpp
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 function! s:check_back_space() abort
     let col = col('.') - 1
@@ -214,10 +209,10 @@ function! s:defx_my_settings() abort
                 \ defx#do_action('close_tree')
     nnoremap <silent><buffer><expr> yy
                 \ defx#do_action('yank_path')
-    "    nnoremap <silent><buffer><expr> .
-    "                \ defx#do_action('toggle_ignored_files')
-    "    nnoremap <silent><buffer><expr> ;
-    "                \ defx#do_action('repeat')
+    nnoremap <silent><buffer><expr> .
+                \ defx#do_action('toggle_ignored_files')
+    nnoremap <silent><buffer><expr> ;
+                \ defx#do_action('repeat')
     nnoremap <silent><buffer><expr> h
                 \ defx#do_action('close_tree')
     "    nnoremap <silent><buffer><expr> ~

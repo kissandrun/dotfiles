@@ -33,18 +33,18 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-zinit wait lucid for \
-  atinit"ZINIT[COMPINIT_OPTS]=-C; zicompinit; zicdreplay" \
-    zdharma/fast-syntax-highlighting \
-  atload"zpcdreplay" wait"1" \
-    OMZP::kubectl \
-  blockf \
-    zsh-users/zsh-completions \
-  atload"!_zsh_autosuggest_start" \
-    zsh-users/zsh-autosuggestions \
-  as"completion" is-snippet \
-    https://github.com/docker/cli/blob/master/contrib/completion/zsh/_docker \
-    https://github.com/docker/compose/blob/master/contrib/completion/zsh/_docker-compose
+#zinit wait lucid for \
+  #atinit"ZINIT[COMPINIT_OPTS]=-C; zicompinit; zicdreplay" \
+    #zdharma/fast-syntax-highlighting \
+  #atload"zpcdreplay" wait"1" \
+    #OMZP::kubectl \
+  #blockf \
+    #zsh-users/zsh-completions \
+  #atload"!_zsh_autosuggest_start" \
+    #zsh-users/zsh-autosuggestions \
+  #as"completion" is-snippet \
+    #https://github.com/docker/cli/blob/master/contrib/completion/zsh/_docker \
+    #https://github.com/docker/compose/blob/master/contrib/completion/zsh/_docker-compose
 
 # 语法高亮
 zinit ice lucid wait='0' atinit='zpcompinit'
@@ -61,25 +61,23 @@ zinit light zsh-users/zsh-completions
 # 加载 OMZ 框架及部分插件
 zinit snippet OMZ::lib/completion.zsh
 zinit snippet OMZ::lib/history.zsh
-zinit snippet OMZ::lib/key-bindings.zsh
+#zinit snippet OMZ::lib/key-bindings.zsh
 zinit snippet OMZ::lib/theme-and-appearance.zsh
-zinit snippet OMZ::plugins/colored-man-pages/colored-man-pages.plugin.zsh
-zinit snippet OMZ::plugins/sudo/sudo.plugin.zsh
-zinit snippet OMZ::plugins/git-flow/git-flow.plugin.zsh
+#zinit snippet OMZ::plugins/colored-man-pages/colored-man-pages.plugin.zsh
+#zinit snippet OMZ::plugins/git-flow/git-flow.plugin.zsh
 zinit snippet OMZ::plugins/autojump/autojump.plugin.zsh
-zinit snippet OMZ::plugins/mvn/mvn.plugin.zsh
-zinit snippet OMZ::plugins/tmux/tmux.plugin.zsh
-zinit snippet OMZ::plugins/tmuxinator/tmuxinator.plugin.zsh
+#zinit snippet OMZ::plugins/tmux/tmux.plugin.zsh
+#zinit snippet OMZ::plugins/tmuxinator/tmuxinator.plugin.zsh
 zinit snippet OMZ::plugins/command-not-found/command-not-found.plugin.zsh
-zinit snippet OMZ::plugins/pip/pip.plugin.zsh
-zinit snippet OMZ::plugins/fzf/fzf.plugin.zsh
+#zinit snippet OMZ::plugins/pip/pip.plugin.zsh
+#zinit snippet OMZ::plugins/fzf/fzf.plugin.zsh
 
-zinit ice lucid wait='1'
-zinit snippet OMZ::plugins/git/git.plugin.zsh
+#zinit ice lucid wait='1'
+#zinit snippet OMZ::plugins/git/git.plugin.zsh
 
 # Gitignore plugin – commands gii and gi
-zinit ice wait"2" lucid
-zinit load voronkovich/gitignore.plugin.zsh
+#zinit ice wait"2" lucid
+#zinit load voronkovich/gitignore.plugin.zsh
 
 zinit load djui/alias-tips
 
@@ -87,6 +85,7 @@ zinit load djui/alias-tips
 export PATH="/home/kissandrun/node/bin:$PATH"
 export PATH="/home/kissandrun/.local/bin:$PATH"
 export PATH="/home/kissandrun/texlive/bin/x86_64-linux:$PATH"
+export PATH="/home/kissandrun/.linuxbrew/bin:$PATH"
  
 # alias
 alias zshconfig="vim ~/.zshrc"
@@ -101,11 +100,13 @@ set bell-style none
 alias pls=sudo
 alias wcd="cd /mnt/c/Users/Run/"
 alias clang++="clang++ -std=c++11"
-alias brew="/home/kissandrun/.linuxbrew/bin/brew"
+#alias brew="/home/kissandrun/.linuxbrew/bin/brew"
 
 export LANG="zh_CN.UTF-8"
 export LANGUAGE="zh_CN:zh"
-
+export DISPLAY=localhost:0
+export XDG_RUNTIME_DIR=/home/kissandrun/.cache/xdg_runtime
+export OP_SESSION_my="oxyHRdj3MbRxBlAj-NOKd3pGFNBJwwQXs1hfpxle2EM"
 
 ###
 ###FZF
@@ -149,4 +150,10 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+####  bindkey
+
+bindkey '^W' forward-word
+alias setproxy="export ALL_PROXY=socks5://192.168.1.184:10808" 
+alias unsetproxy="unset ALL_PROXY"
 
