@@ -97,16 +97,14 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias vim=nvim
 set bell-style none
-alias pls=sudo
 alias wcd="cd /mnt/c/Users/Run/"
 alias clang++="clang++ -std=c++11"
 #alias brew="/home/kissandrun/.linuxbrew/bin/brew"
 
 export LANG="zh_CN.UTF-8"
 export LANGUAGE="zh_CN:zh"
-export DISPLAY=localhost:0
-export XDG_RUNTIME_DIR=/home/kissandrun/.cache/xdg_runtime
-export OP_SESSION_my="oxyHRdj3MbRxBlAj-NOKd3pGFNBJwwQXs1hfpxle2EM"
+#export DISPLAY=localhost:0
+#export XDG_RUNTIME_DIR=/home/kissandrun/.cache/xdg_runtime
 
 ###
 ###FZF
