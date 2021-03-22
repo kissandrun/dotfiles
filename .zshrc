@@ -79,7 +79,8 @@ zinit snippet OMZ::plugins/command-not-found/command-not-found.plugin.zsh
 #zinit ice wait"2" lucid
 #zinit load voronkovich/gitignore.plugin.zsh
 
-zinit load djui/alias-tips
+#zinit ice lucid wait='0'
+#zinit light djui/alias-tips
 
 # PATH
 export PATH="/home/kissandrun/node/bin:$PATH"
@@ -154,4 +155,3 @@ unset __conda_setup
 bindkey '^W' forward-word
 alias setproxy="export ALL_PROXY=socks5://192.168.1.184:10808" 
 alias unsetproxy="unset ALL_PROXY"
-

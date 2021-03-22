@@ -5,3 +5,7 @@
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	unstage = reset HEAD
 	last = log -1
+[https]
+	proxy = socks5://192.168.32.1:10808
+[http]
+	proxy = socks5://192.168.32.1:10808
