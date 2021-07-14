@@ -83,10 +83,10 @@ zinit snippet OMZ::plugins/command-not-found/command-not-found.plugin.zsh
 #zinit light djui/alias-tips
 
 # PATH
-export PATH="/home/kissandrun/node/bin:$PATH"
-export PATH="/home/kissandrun/.local/bin:$PATH"
-export PATH="/home/kissandrun/texlive/bin/x86_64-linux:$PATH"
-export PATH="/home/kissandrun/.linuxbrew/bin:$PATH"
+export PATH="/home/$USER/node/bin:$PATH"
+export PATH="/home/$USER/.local/bin:$PATH"
+export PATH="/home/$USER/texlive/bin/x86_64-linux:$PATH"
+export PATH="/home/$USER/.linuxbrew/bin:$PATH"
  
 # alias
 alias zshconfig="vim ~/.zshrc"
@@ -100,12 +100,12 @@ alias vim=nvim
 set bell-style none
 alias wcd="cd /mnt/c/Users/Run/"
 alias clang++="clang++ -std=c++11"
-#alias brew="/home/kissandrun/.linuxbrew/bin/brew"
+#alias brew="/home/$USER/.linuxbrew/bin/brew"
 
 export LANG="zh_CN.UTF-8"
 export LANGUAGE="zh_CN:zh"
 #export DISPLAY=localhost:0
-#export XDG_RUNTIME_DIR=/home/kissandrun/.cache/xdg_runtime
+#export XDG_RUNTIME_DIR=/home/$USER/.cache/xdg_runtime
 
 ###
 ###FZF
@@ -137,14 +137,14 @@ _fzf_compgen_dir() {
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/kissandrun/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/$USER/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/kissandrun/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/kissandrun/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/$USER/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/$USER/miniconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/kissandrun/miniconda3/bin:$PATH"
+        export PATH="/home/$USER/miniconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
@@ -153,5 +153,3 @@ unset __conda_setup
 ####  bindkey
 
 bindkey '^W' forward-word
-alias setproxy="export ALL_PROXY=socks5://192.168.1.184:10808" 
-alias unsetproxy="unset ALL_PROXY"
