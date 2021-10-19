@@ -1,7 +1,7 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " Maintainer:
 "
-"       KissAndRun
+"       kissandrun
 "" _    _                         _
 "" | |  (_)                       | |
 "" | | ___ ___ ___  __ _ _ __   __| |_ __ _   _ _ __
@@ -19,28 +19,25 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'morhetz/gruvbox'
-"Plug 'ludovicchabant/vim-gutentags'
-"Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
 Plug 'Yggdroot/indentLine'
 Plug 'mhinz/vim-signify' "显示修改痕迹
 Plug 'tpope/vim-projectionist' "待研究
 Plug 'tpope/vim-surround' "待研究
 Plug 'tpope/vim-unimpaired' "[ ]一系列快捷键 已经忘了
-Plug 'honza/vim-snippets'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
-Plug 'christoomey/vim-tmux-navigator'
-
+Plug 'tpope/vim-commentary' "gcc
+Plug 'honza/vim-snippets'
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
-Plug 'scrooloose/nerdcommenter' "<Leader>c<space> 注释当前行或者反注释
-Plug 'rhysd/clever-f.vim'
+" Plug 'rhysd/clever-f.vim'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'Raimondi/delimitMate' "shift-tab 跳出匹配的闭括号
 Plug 'chiel92/vim-autoformat'
 Plug 'mhinz/vim-startify'
+Plug 'easymotion/vim-easymotion'
 if has('nvim')
     Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
 else
@@ -50,31 +47,16 @@ else
 endif
 Plug 'skywind3000/asyncrun.vim'
 Plug 'skywind3000/asynctasks.vim'
-Plug 'wellle/tmux-complete.vim'
-
-
-" test
-Plug 'mileszs/ack.vim'
-Plug 'mg979/vim-visual-multi', {'branch': 'master'}
-Plug 'gcmt/wildfire.vim'
-Plug 'kana/vim-textobj-user'
-Plug 'kana/vim-textobj-indent'
-Plug 'kana/vim-textobj-function', { 'for':['c', 'cpp', 'vim', 'python'] }
-Plug 'sgur/vim-textobj-parameter'
-
-
-
-
 call plug#end()
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
 let mapleader = ";"
 set shell=zsh
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-noremap <leader>af :Autoformat<CR>
-let g:formatters_python = ['yapf']
-let g:tmux_navigator_save_on_switch = 2
+noremap <leader>f :Autoformat<CR>
+let g:formatters_python = ['black']
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:asyncrun_rootmarks = ['.svn', '.git', '.root', '_darcs', 'build.xml']
 " 自动打开 quickfix window ，高度为 6
@@ -84,34 +66,31 @@ let g:asyncrun_bell = 1
 let g:asynctasks_term_pos = 'bottom'
 noremap <silent><leader>r :AsyncTask file-run<cr>
 noremap <silent><leader>b :AsyncTask file-build<cr>
-let g:asynctasks_term_pos = 'right'
 autocmd BufNewFile  *.cpp 0r ~/.config/nvim/template/skeleton.cpp
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" <Leader>f{char} to move to {char}
+map  f <Plug>(easymotion-bd-f)
+nmap f <Plug>(easymotion-overwin-f)
+
+" Move to line
+map J <Plug>(easymotion-bd-jk)
+nmap J <Plug>(easymotion-overwin-line)
+map K <Plug>(easymotion-bd-jk)
+nmap K <Plug>(easymotion-overwin-line)
+""""""""""""""Coc setting"""""""""""""""""""""""""""""""""""""""""
+" Use tab for trigger completion with characters ahead and navigate.
+" NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
+" other plugin before putting this into your config.
 function! s:check_back_space() abort
     let col = col('.') - 1
     return !col || getline('.')[col - 1]  =~ '\s'
 endfunction
 
-inoremap <silent><expr> <Tab>
-            \ pumvisible() ? "\<C-n>" :
-            \ <SID>check_back_space() ? "\<Tab>" :
-            \ coc#refresh()
-"let g:coc_snippet_next = '<tab>'
-""""""""""""""Coc setting"""""""""""""""""""""""""""""""""""""""""
-" Use tab for trigger completion with characters ahead and navigate.
-" NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
-" other plugin before putting this into your config.
 inoremap <silent><expr> <TAB>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
-      \ coc#refresh()
+            \ pumvisible() ? "\<C-n>" :
+            \ <SID>check_back_space() ? "\<TAB>" :
+            \ coc#refresh()
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
-
-function! s:check_back_space() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~# '\s'
-endfunction
-
 set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
             \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
@@ -128,7 +107,7 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
 " Use K to show documentation in preview window.
-nnoremap <silent> U :call <SID>show_documentation()<CR>
+" nnoremap <silent> K :call <SID>show_documentation()<CR>
 
 function! s:show_documentation()
     if (index(['vim','help'], &filetype) >= 0)
@@ -248,41 +227,6 @@ function! s:defx_my_settings() abort
     "    nnoremap <silent><buffer><expr> cd
     "                \ defx#do_action('change_vim_cwd')
 endfunction
-""""""""""""""LeaderF settiing"""""""""""""""""""""""""""""""""
-let g:Lf_CommandMap = {'<C-C>': ['<Esc>', '<C-C>']}
-let g:Lf_ReverseOrder = 1
-set tags=./.tags;,.tags
-
-noremap <leader>g :LeaderfFunction!<cr>
-noremap <leader>t :LeaderfTag<cr>
-let g:Lf_StlSeparator = { 'left': '', 'right': '', 'font': '' }
-let g:Lf_RootMarkers = ['.project', '.root', '.svn', '.git']
-let g:Lf_WorkingDirectoryMode = 'Ac'
-let g:Lf_WindowHeight = 0.30
-let g:Lf_GtagsStoreInRootMarker = 1
-"let g:Lf_CacheDirectory = expand('~/.cache')
-let g:Lf_ShowRelativePath = 0
-let g:Lf_HideHelp = 1
-let g:Lf_StlColorscheme = 'gruvbox'
-let g:Lf_StlSeparator = { 'left': "\ue0b0", 'right': "\ue0b2" }
-let g:Lf_PreviewResult = {'Function':0, 'BufTag':0}
-let g:Lf_NormalMap = {
-            \ "File":   [["<ESC>", ':exec g:Lf_py "fileExplManager.quit()"<CR>']],
-            \ "Buffer": [["<ESC>", ':exec g:Lf_py "bufExplManager.quit()"<CR>']],
-            \ "Mru":    [["<ESC>", ':exec g:Lf_py "mruExplManager.quit()"<CR>']],
-            \ "Tag":    [["<ESC>", ':exec g:Lf_py "tagExplManager.quit()"<CR>']],
-            \ "Function":    [["<ESC>", ':exec g:Lf_py "functionExplManager.quit()"<CR>']],
-            \ "Colorscheme":    [["<ESC>", ':exec g:Lf_py "colorschemeExplManager.quit()"<CR>']],
-            \ }
-
-let g:Lf_GtagsAutoGenerate = 1
-let g:Lf_Gtagslabel = 'native-pygments'
-noremap <leader>fr :<C-U><C-R>=printf("Leaderf! gtags -r %s --auto-jump", expand("<cword>"))<CR><CR>
-noremap <leader>fd :<C-U><C-R>=printf("Leaderf! gtags -d %s --auto-jump", expand("<cword>"))<CR><CR>
-noremap <leader>fo :<C-U><C-R>=printf("Leaderf! gtags --recall %s", "")<CR><CR>
-noremap <leader>fn :<C-U><C-R>=printf("Leaderf gtags --next %s", "")<CR><CR>
-noremap <leader>fp :<C-U><C-R>=printf("Leaderf gtags --previous %s", "")<CR><CR>
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""rainbow setting"""""""""""""""""""""""""""""""""
 let g:rbpt_colorpairs = [
             \ ['brown',       'RoyalBlue3'],
@@ -309,7 +253,6 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """""""""""""scheme and airline"""""""""""""""""""""""""""""""
 "colorscheme wombat256mod
 colorscheme gruvbox
@@ -318,30 +261,8 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline_powerline_fonts = 1
 
-let g:tmux_navigator_no_mappings = 1
-nnoremap <silent> <M-C-h> :TmuxNavigateLeft<cr>
-nnoremap <silent> <M-C-j> :TmuxNavigateDown<cr>
-nnoremap <silent> <M-C-l> :TmuxNavigateRight<cr>
-nnoremap <silent> <M-C-k> :TmuxNavigateUp<cr>
-nnoremap <silent> <M-C-n> :TmuxNavigatePrevious<cr>
-tnoremap <silent> <M-C-h> <C-\><C-n>:TmuxNavigateLeft<cr>
-tnoremap <silent> <M-C-j> <C-\><C-n>:TmuxNavigateDown<cr>
-tnoremap <silent> <M-C-k> <C-\><C-n>:TmuxNavigateUp<cr>
-tnoremap <silent> <M-C-l> <C-\><C-n>:TmuxNavigateRight<cr>
-tnoremap <silent> <M-C-n> <C-\><C-n>:TmuxNavigatePrevious<cr>
-"nnoremap <silent> <C-M-h> :TmuxNavigateLeft<cr>
-"nnoremap <silent> <C-M-j> :TmuxNavigateDown<cr>
-"nnoremap <silent> <C-M-k> :TmuxNavigateUp<cr>
-"nnoremap <silent> <C-M-l> :TmuxNavigateRight<cr>
-"nnoremap <silent> <C-M-f> :TmuxNavigatePrevious<cr>
 """"""""""""""buffer setting"""""""""""""""""""""""""""""""""""
 set hidden " 避免必须保存修改才可以跳转buffer
-
-"buffer快速导航
-"不需要了 用[]b 代替
-autocmd TextYankPost * if v:event.operator ==# 'y' | call system('cat |' . s:clip, @0) | endif
-" 查看buffers
-" nnoremap <Leader>l :ls<CR>
 
 " 通过索引快速跳转
 nnoremap <Leader>1 :1b<CR>
@@ -357,14 +278,10 @@ nnoremap <Leader>0 :10b<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """"""""""""""Terminal Setting"""""""""""""""""""""""""""""""""""
-noremap <C-t> :belowright vert term <cr>
-tnoremap tq <c-\><c-n>
-"tnoremap <C-j> <C-W>j
-"tnoremap <C-k> <C-W>k
-"tnoremap <C-h> <C-W>h
-"tnoremap <C-l> <C-W>l
-tnoremap <Leader>j <c-\><c-n>:bp<CR>
-tnoremap <Leader>k <c-\><c-n>:bn<CR>
+noremap <C-t> :sp term://zsh <cr>
+" tnoremap tq <c-\><c-n>
+" tnoremap <Leader>j <c-\><c-n>:bp<CR>
+" tnoremap <Leader>k <c-\><c-n>:bn<CR>
 
 "Always show the column
 set signcolumn=yes
@@ -375,6 +292,7 @@ set history=500
 
 " Set number of lines
 set nu!
+set splitbelow
 
 " Enable filetype plugins
 filetype plugin on
@@ -534,16 +452,16 @@ set wrap "Wrap lines
 " => Moving around, tabs, windows and buffers
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Smart way to move between windows
-"noremap <C-j> <C-W>j
-"noremap <C-k> <C-W>k
-"noremap <C-h> <C-W>h
-"noremap <C-l> <C-W>l
-"noremap <C-f> <C-W><C-P>
+" map <C-j> <C-W>j
+" map <C-k> <C-W>k
+" map <C-h> <C-W>h
+" map <C-l> <C-W>l
+map <C-f> <C-W><C-P>
 
-map <C-w>j :resize +6<cr>
-map <C-w>k :resize -6<cr>
-map <C-w>l :vertical resize +6<cr>
-map <C-w>h :vertical resize -6<cr>
+" map <C-w>j :resize +6<cr>
+" map <C-w>k :resize -6<cr>
+" map <C-w>l :vertical resize +6<cr>
+" map <C-w>h :vertical resize -6<cr>
 
 " Switch PWD to the directory of the open buffer
 map <leader>cd :cd %:p:h<cr>:pwd<cr>
@@ -569,23 +487,8 @@ hi NonText guibg=NONE ctermbg=NONE
 " => Editing mappings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Remap VIM 0 to first non-blank character
-"map 0 ^
-noremap J 20j
-noremap K 20k
 noremap H ^
 noremap L $
-inoremap <c-a> <home>
-inoremap <c-e> <end>
-"inoremap <C-h> <left>
-"inoremap <C-j> <down>
-"inoremap <C-k> <up>
-"inoremap <C-l> <right>
-"cnoremap <c-h> <left>
-"cnoremap <c-n> <down>
-"cnoremap <c-p> <up>
-"cnoremap <c-l> <right>
-"cnoremap <c-a> <home>
-"cnoremap <c-e> <end>
 
 let g:python3_host_prog = "/home/kissandrun/miniconda3/bin/python"
 
@@ -613,92 +516,6 @@ map <leader>q :e ~/buffer<cr>
 set ttimeout ttimeoutlen=50
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
-"""""""""""""Add by KissAndRun"""""""""""""
-"" Out of the brackets
-func SkipPair()
-    if getline('.')[col('.') - 1] == ')' || getline('.')[col('.') - 1] == ']' || getline('.')[col('.') - 1] == '"' || getline('.')[col('.') - 1] == "'" || getline('.')[col('.') - 1] == '}'
-        return "\<ESC>la"
-    else
-        return "\t"
-    endif
-endfunc
-inoremap <leader><TAB> <c-r>=SkipPair()<CR>
-""""""""""快捷使用ipdb"""""""""""""""""""""""""""""""""
-func! s:SetBreakpoint()
-    cal append('.', repeat(' ', strlen(matchstr(getline('.'), '^\s*'))) . 'import ipdb; ipdb.set_trace()')
-endf
-
-func! s:RemoveBreakpoint()
-    exe 'silent! g/^\s*import\sipdb\;\?\n*\s*ipdb.set_trace()/d'
-endf
-
-func! s:ToggleBreakpoint()
-    if getline('.')=~#'^\s*import\sipdb' | cal s:RemoveBreakpoint() | el | cal s:SetBreakpoint() | en
-endf
-nnoremap <F6> :call <SID>ToggleBreakpoint()<CR>
-""""""""""使用Alt键"""""""""""""""""""""""""""""""""
-function! Terminal_MetaMode(mode)
-    set ttimeout
-    if $TMUX != ''
-        set ttimeoutlen=30
-    elseif &ttimeoutlen > 80 || &ttimeoutlen <= 0
-        set ttimeoutlen=80
-    endif
-    if has('nvim') || has('gui_running')
-        return
-    endif
-    function! s:metacode(mode, key)
-        if a:mode == 0
-            exec "set <M-".a:key.">=\e".a:key
-        else
-            exec "set <M-".a:key.">=\e]{0}".a:key."~"
-        endif
-    endfunc
-    for i in range(10)
-        call s:metacode(a:mode, nr2char(char2nr('0') + i))
-    endfor
-    for i in range(26)
-        call s:metacode(a:mode, nr2char(char2nr('a') + i))
-        call s:metacode(a:mode, nr2char(char2nr('A') + i))
-    endfor
-    if a:mode != 0
-        for c in [',', '.', '/', ';', '[', ']', '{', '}']
-            call s:metacode(a:mode, c)
-        endfor
-        for c in ['?', ':', '-', '_']
-            call s:metacode(a:mode, c)
-        endfor
-    else
-        for c in [',', '.', '/', ';', '{', '}']
-            call s:metacode(a:mode, c)
-        endfor
-        for c in ['?', ':', '-', '_']
-            call s:metacode(a:mode, c)
-        endfor
-    endif
-endfunc
-
-"call Terminal_MetaMode(0)
-
-let s:clip = '/mnt/c/Windows/System32/clip.exe'  " change this path according to your mount point
-if executable(s:clip)
-    augroup WSLYank
-        autocmd!
-        autocmd TextYankPost * if v:event.operator ==# 'y' | call system('cat |' . s:clip, @0) | endif
-    augroup END
-endif
-map <leader>p :read !/mnt/c/Windows/System32/paste.exe<cr>
-
-function RunCurrent()
-    let path = expand("%:p")
-    let commandin = "'" . "ipython -i" . " " . path . "'"
-    let command = "tmux send-keys -t top-right ".expand(commandin).expand(" C-m")
-    let commandfist ="tmux send-keys -t top-right ".expand("C-z")
-    call system(commandfist)
-    call system(command)
-endfunction
-nnoremap <leader>s :call RunCurrent()<CR>
-
 if $CONDA_PREFIX == ""
     let s:current_python_path=$CONDA_PYTHON_EXE
 else
